@@ -1,0 +1,56 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'fundGame' do
+  # Comment the next line if you don't want to use dynamic frameworks
+
+
+  # Pods for fundGame
+  pod 'React', :path => '../node_modules/react-native/'
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+ 
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+  pod 'GoogleSignIn', '~> 4.4.0'
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+  pod 'FBSDKCoreKit', '~> 4.40.0'
+  pod 'FBSDKLoginKit', '~> 4.40.0'
+  pod 'FBSDKShareKit', '~> 4.40.0'
+
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database' 
+  pod 'Firebase/RemoteConfig'
+  pod 'Firebase/Auth'
+  pod 'Firebase/AdMob'
+  pod 'Firebase/Messaging'
+
+  pod "FBSDKMessengerShareKit"
+  # pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+  # pod 'RNFBApp', :path => '../node_modules/@react-native-firebase/app'
+  # pod 'RNFBAdMob', :path => '../node_modules/@react-native-firebase/admob'
+ 
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      if target.name == "React"
+        target.remove_from_project
+      end
+    end
+  end
+  # target 'fundGameTests' do
+  #   inherit! :search_paths
+  #   # Pods for testing
+  # end
+
+end
+
+
+  # Pods for fundGame-tvOS
+
+ 
+
+

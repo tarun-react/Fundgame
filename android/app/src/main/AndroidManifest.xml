@@ -1,0 +1,55 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.ecoviro.fundgame">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <application
+      android:name="com.fundgame.MainApplication"
+      android:label="@string/app_name"
+      android:icon="@mipmap/ic_launcher"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:allowBackup="false"
+	  android:usesCleartextTraffic="true"
+      android:theme="@style/AppTheme">
+
+<meta-data
+    android:name="com.google.android.gms.ads.APPLICATION_ID"
+    android:value="ca-app-pub-8514281250854623~3619807937"/>
+
+  <uses-library android:name="org.apache.http.legacy" android:required="false"/>  <!-- Add this line to avoid crashes on Android 9 until AdMob SDK update -->
+
+
+
+      <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="12ed13a042a0af15b8164fbb402243149f876a16"
+            />
+      <service android:name="io.invertase.firebase.messaging.RNFirebaseMessagingService">
+        <intent-filter>
+          <action android:name="com.google.firebase.MESSAGING_EVENT" />
+        </intent-filter>
+      </service>
+      <!--<service android:name="io.invertase.firebase.messaging.RNFirebaseInstanceIdService">-->
+        <!--<intent-filter>-->
+          <!--<action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>-->
+        <!--</intent-filter>-->
+      <!--</service>-->
+
+      <activity
+        android:name="com.fundgame.MainActivity"
+        android:label="@string/app_name"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+        android:windowSoftInputMode="adjustResize">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+      </activity>
+
+      <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+      
+    </application>
+
+</manifest>

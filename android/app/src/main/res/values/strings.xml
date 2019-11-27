@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fund Game</string>
+    <!--<string name="facebook_app_id">321973608452872</string>       //commented by souvik-->
+    <string name="facebook_app_id">2274437526148265</string>
+</resources>

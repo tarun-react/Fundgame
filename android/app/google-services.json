@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "114762172152",
+    "firebase_url": "https://fund-game-f1d81.firebaseio.com",
+    "project_id": "fund-game-f1d81",
+    "storage_bucket": "fund-game-f1d81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114762172152:android:335f8ff8c40644a93d1d0d",
+        "android_client_info": {
+          "package_name": "com.ecoviro.fundgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114762172152-2k53ri03lqgjdkvrd6pj17nmfoaktise.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoviro.fundgame",
+            "certificate_hash": "1bd78d5738398a17b873c825094f449f7d52dd28"
+          }
+        },
+        {
+          "client_id": "114762172152-has9gc0vueourb08b5u6oc9lp0t61b3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ecoviro.fundgame",
+            "certificate_hash": "48278b995429f6191de8454144bb05056ff6c24a"
+          }
+        },
+        {
+          "client_id": "114762172152-6sr9guidalo4c8r5sbal5dqihpl1kccs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9hG6je4ryHvsc-OXULZ8lzdsiTK7bCA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114762172152-nj6sumrd6ohvci01ncicrl1isutpork1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "114762172152-gcu3a0v48j6ipc59mrbaqihs62qbeakr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ecoviro.fundgame"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114762172152:android:6a14fbd9eaa9dad3",
+        "android_client_info": {
+          "package_name": "com.fundgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114762172152-8qddas6cattc1lnnhlvuvct0nbmj2amb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fundgame",
+            "certificate_hash": "48278b995429f6191de8454144bb05056ff6c24a"
+          }
+        },
+        {
+          "client_id": "114762172152-6sr9guidalo4c8r5sbal5dqihpl1kccs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9hG6je4ryHvsc-OXULZ8lzdsiTK7bCA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114762172152-nj6sumrd6ohvci01ncicrl1isutpork1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "114762172152-gcu3a0v48j6ipc59mrbaqihs62qbeakr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ecoviro.fundgame"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
